@@ -16,7 +16,7 @@ export class Nav extends Component {
   render() {
     return(
       <ChakraProvider theme={theme}>
-        Nav bar
+        <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">Dead Good Cycling Club</Heading>
       </ChakraProvider>      
       )
   }

@@ -10,6 +10,7 @@ import {
   Link,
   List,
   Spacer,
+  Text,
   VStack
 } from "@chakra-ui/react"
 
@@ -40,13 +41,13 @@ function Nav() {
     <ChakraProvider theme={theme}>
     <VStack>
       <Container centerContent>
-        <Heading as="h1" fontWeight="semibold" color="cyan.default">Dead Good Cycling Club</Heading>
+        <Heading as="h1" mt="50px" mb="50px" fontWeight="semibold" fontStyle="italic" color="cyan.default">Dead Good <Text as="span" fontStyle="normal" color="pink.default">Cycling Club</Text></Heading>
       </Container>
       <Container centerContent>
-        <List color="pink.default" >
-          <Link pr="2">Ethos</Link>
-          <Link pr="2">Rides</Link>
-          <Link>Contact</Link>
+        <List color="pink.default" fontSize="20px" mb="50">
+          <Link pt="2" pr="15" pb="2" pl="15">Ethos</Link>
+          <Link pt="2" pr="15" pb="2" pl="15">Rides</Link>
+          <Link pt="2" pr="15" pb="2" pl="15">Contact</Link>
         </List>
       </Container>
     </VStack>

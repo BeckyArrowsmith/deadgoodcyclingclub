@@ -1,15 +1,25 @@
-import * as React from "react"
 import {
+  Container,
   Flex,
   VStack,
 } from "@chakra-ui/react"
 
 import Nav from './components/Nav';
+import Masthead from './components/Masthead';
+import Ethos from './components/Ethos';
+import Rides from './components/Rides';
+import Contact from './components/Contact';
+
+import Footer from './components/Footer';
+
 
 export const App = () => (
-  <VStack p={5} bg="purple.default">
-    <Flex w="100%">
+  <VStack bg="purple.default">
       <Nav/>
-    </Flex>
+      <Masthead/>
+      <Ethos/>
+      <Rides/>
+      <Contact/>
+      <Footer/>
   </VStack>
 )

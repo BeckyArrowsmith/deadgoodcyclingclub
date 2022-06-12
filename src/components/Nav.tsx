@@ -1,5 +1,8 @@
 
 import React from 'react';
+import "@fontsource/kanit"
+import "@fontsource/permanent-marker"
+import "@fontsource/anton"
 
 import {
   Box,
@@ -41,10 +44,11 @@ function Nav() {
     <ChakraProvider theme={theme}>
     <VStack>
       <Container centerContent>
-        <Heading as="h1" mt="50px" mb="50px" fontWeight="semibold" fontStyle="italic" color="cyan.default">Dead Good <Text as="span" fontStyle="normal" color="pink.default">Cycling Club</Text></Heading>
+        <Heading as="h1" mt="50px" fontWeight="900" fontStyle="italic" fontFamily="Anton" fontSize="52px" color="cyan.default" mb="-18px">DEAD GOOD</Heading>
+        <Text as="span" mb="50px" fontSize="32px" fontStyle="normal" fontFamily="Permanent Marker" color="pink.default">Cycling Club</Text>
       </Container>
       <Container centerContent>
-        <List color="pink.default" fontSize="20px" mb="50">
+        <List color="text.default" fontSize="20px" mb="50">
           <Link pt="2" pr="15" pb="2" pl="15">Ethos</Link>
           <Link pt="2" pr="15" pb="2" pl="15">Rides</Link>
           <Link pt="2" pr="15" pb="2" pl="15">Contact</Link>

@@ -16,17 +16,23 @@ const theme = extendTheme({
     "purple": {
       "default": "#3B097C",
     },
-    "lightpurple": {
-      "default": "#9529ff",
+    "lightpink": {
+      "default": "#fae6fb"
     },
     "cyan": {
       "default": "#06d2d5",
+    },
+    "lightgreen": {
+      "default": "#E7FBE6"
     },
     "green": {
       "default": "#00ecb7",
     },
     "pink": {
       "default": "#ff0380",
+    },
+    "text": {
+      "default": "#404040"
     }
   }
 })

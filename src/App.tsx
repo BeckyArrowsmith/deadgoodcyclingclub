@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 
 export const App = () => (
-  <VStack bg="purple.default">
+  <VStack bg="lightpink.default" color="text.default">
       <Nav/>
       <Masthead/>
       <Ethos/>

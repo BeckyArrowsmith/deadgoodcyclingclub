@@ -4,6 +4,7 @@ import React from 'react';
 import {
   ChakraProvider,
   extendTheme,
+  Container,
   Text,
 } from "@chakra-ui/react"
 
@@ -32,7 +33,9 @@ const theme = extendTheme({
 function Masthead() {
   return (
     <ChakraProvider theme={theme}>
+      <Container>
         <Text color="pink.default">Masthead</Text>
+      </Container>
     </ChakraProvider>  
   )
 }

@@ -4,6 +4,8 @@ import React from 'react';
 import {
   ChakraProvider,
   extendTheme,
+  Container,
+  Heading,
   Text,
 } from "@chakra-ui/react"
 
@@ -32,7 +34,9 @@ const theme = extendTheme({
 function Contact() {
   return (
     <ChakraProvider theme={theme}>
-        <Text color="pink.default">Contact</Text>
+      <Container>
+        <Heading id="contact" as="h2" color="pink.default">Contact</Heading>
+      </Container>
     </ChakraProvider>  
   )
 }

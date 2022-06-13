@@ -49,9 +49,9 @@ function Nav() {
       </Container>
       <Container centerContent>
         <List color="text.default" fontSize="20px" mb="50">
-          <Link pt="2" pr="15" pb="2" pl="15">Ethos</Link>
-          <Link pt="2" pr="15" pb="2" pl="15">Rides</Link>
-          <Link pt="2" pr="15" pb="2" pl="15">Contact</Link>
+          <Link href="#ethos" pt="2" pr="15" pb="2" pl="15">Ethos</Link>
+          <Link href="#rides" pt="2" pr="15" pb="2" pl="15">Rides</Link>
+          <Link href="#contact" pt="2" pr="15" pb="2" pl="15">Contact</Link>
         </List>
       </Container>
     </VStack>
